@@ -82,19 +82,19 @@
     margin-bottom: 30px;
 }
  .item:nth-child(1)::before {
-    background-image: url(../images/svg/antenna\ 1.svg);
+    background-image: url(../images/antenna\ 1.svg);
  }
 
  .item:nth-child(2)::before {
-    background-image: url(../images/svg/clock\ 1.svg);
+    background-image: url(../images/clock\ 1.svg);
  }
 
  .item:nth-child(3)::before {
-    background-image: url(../images/svg/diagram\ 1.svg);
+    background-image: url(../images/diagram\ 1.svg);
  }
 
  .item:nth-child(4)::before {
-    background-image: url(../images/svg/astronaut\ 1.svg);
+    background-image: url(../images/astronaut\ 1.svg);
  }
 
 /* 
