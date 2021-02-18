@@ -1,0 +1,251 @@
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff; 
+    --bgc-main: #2F303A;
+    --bgc-accent: #F5F4FA; 
+}
+
+
+body {
+    background-color: #ffffff;
+    color: #212121;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* logo */
+
+.logo {
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+}
+
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--primary-text-color); 
+}
+
+/* Утилиты */
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    /* outline: 1px solid red; */
+}
+
+/* Site nav */
+
+.page-header {
+     
+    /* width: 1200px; */
+    /* background-color: blanchedalmond; */
+}
+
+.site-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 93px;
+}
+
+.site-nav .item + .item {
+    margin-left: 50px;
+}
+
+/* .site-nav .item:not(:last-child) {
+    margin-right: 50px;
+} */
+
+.site-nav .link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;    
+    letter-spacing: 0.02em;
+    
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    outline: 1px solid black;
+}
+
+.contacts .item + .item {
+    margin-left: 50px;
+}
+
+.contacts .contacts-link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-link::before {
+    display: inline-block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    color: var(--title-text-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 10px;
+    
+}
+
+
+
+
+
+
+
+/* footer */
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--bgc-main);
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--primary-bg-color);
+}
+
+.logo-color{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    color: var(--accent-color);
+}
+
+.main-address {
+    margin: 0;
+    padding: 0;
+}
+
+.address-p {
+    margin: 0;
+    padding: 0;
+}
+
+.address-title {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-bg-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    padding-bottom: 9px;
+}
+
+.main-address .address-link {
+    color: rgba(255 ,255 ,255 ,0.6 );
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.container.main {
+    display: block;
+    
+}
+
+.footer-address{
+    padding-top: 20px;
+}
+
+.main-address .item{
+    padding-bottom: 9px;
+}
