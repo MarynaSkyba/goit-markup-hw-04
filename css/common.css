@@ -145,24 +145,18 @@ img {
     display: flex;
     align-items: center;
     margin-left: auto;
-    outline: 1px solid black;
 }
 
-.contacts .item {
-    outline: 1px solid red;
-
-
-}
 .contacts .item + .item {
     margin-left: 50px;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
-    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
-.contacts .contacts-link {
+.contacts-link {
     display: flex;
     color: var(--title-text-color);
     font-weight: 500;
@@ -172,37 +166,19 @@ img {
     
 }
 
-
-.contacts-icon:hover,
-.contacts-icon:focus {
-    color:  var(--accent-color);
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+    color: var(--accent-color);
 }
+
 
 .contacts-icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 10px;
-        /* fill: currentColor; */
-        /* color: var(--title-text-color); */
-    
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 10px;
+    fill: currentColor;
 }
-
-
-
-/* .contacts-link::before {
-    display: inline-block;
-    content: "";
-    width: 20px;
-    height: 20px;
-    color: var(--title-text-color);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    margin-right: 10px; */
-    
-}
-
 
 /*footer*/
 

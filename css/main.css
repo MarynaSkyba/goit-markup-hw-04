@@ -85,8 +85,7 @@
 
 }
 
-}
- /* .item:nth-child(1)::before {
+/* .item:nth-child(1)::before {
     background-image: url(../images/antenna\ 1.svg);
  }
 
@@ -197,6 +196,7 @@
     display: flex;
     margin-left: -30px;   
 }
+
 /* .comand-group > .item:not(:last-child) {
      margin-right: 30px;
 } */
@@ -251,8 +251,7 @@
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
-
-  
+ 
 }
 
 .clients-title {
@@ -288,8 +287,6 @@
     box-sizing: border-box;
     border-radius: 4px;
     color: var(--title-text-color);
-
-
 }
 
 .clients-link:hover,
