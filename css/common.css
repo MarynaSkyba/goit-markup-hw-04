@@ -4,7 +4,8 @@
     --accent-color: #2196F3;
     --primary-bg-color: #ffffff; 
     --bgc-main: #2F303A;
-    --bgc-accent: #F5F4FA; 
+    --bgc-accent: #F5F4FA;
+    --icon-color: #AFB1B8; 
 }
 
 
@@ -296,7 +297,8 @@ img {
 } 
 
 .nav-icon{
-    fill: white;
+    fill: var(--primary-bg-color);
+    height: 44px;
 } 
 
 .nav-footer .nav-item:not(:last-child) {

@@ -203,6 +203,7 @@
 } */
 
 .comand-group > .item {
+    background-color: var(--primary-bg-color);
     margin-left: 30px;
     flex-basis: calc(100% / 4 - 30px );
     border-radius: 0px 0px 4px 4px;   
@@ -226,7 +227,7 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    color: var(--title-text-color);
+    color: var(--icon-color);
 
     /* outline: 1px solid green; */
 
@@ -241,6 +242,7 @@
 
 .nav-icon{
     fill: currentColor;
+    height: 44px;
 } 
 
 .nav .nav-item:not(:last-child) {
@@ -284,10 +286,10 @@
     justify-content: center;
     width: 170px;
     height: 90px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--icon-color);
     box-sizing: border-box;
     border-radius: 4px;
-    color: var(--title-text-color);
+    color: var(--icon-color);
 }
 
 .clients-link:hover,
